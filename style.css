@@ -1,17 +1,60 @@
-
-.background{
-  background-color: rgba(0,200,0,0.4);
-  padding: 20px;
-  //font-size: 1.5rem;
-  font-style: oblique;
-  border: 2px solid green;
-  border-left: 6px solid green;
-  //border-radius: 5px;
+*{
+  box-sizing: border-box;
 }
 
+body{
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+}
+.container{
+  padding: 15px;
+  background-color: rgba(128, 128, 128,1);
+  //border: 2px solid #000;
+  border-left: 5px solid #000;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-style: oblique;
+}
+form{
+  padding: 2px;
+  background-color: rgba(128, 128, 128,1);
+//  border-radius: 3px;
+//  border: 2px solid #000;
+  border-left: 5px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 input{
-  width: 20vw;
-  height: 40px;
-  border-radius: 5px;
-  border: 1px solid #000000;
+  margin-left: 5px;
+  width:20vw;
+  height: 30px;
+  border: 0;
+  border-radius: 3px;
+  color: #000;
+  font-size: 1.2rem;
+  align:center;
+  text-align: center;
+}
+label{
+  height: 30px;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+button{
+  background-color: #fff;
+  margin-left: 10px;
+  width:20vw;
+  height: 30px;
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 3px;
+}
+input:focus,input:hover{
+  box-shadow: 0 0 3px 2px #000;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 3px 2px #000;
 }
